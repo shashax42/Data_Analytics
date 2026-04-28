@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+.agents/
+
+# Logs
+*.log
+
+# Data (수집된 데이터 및 데이터베이스)
+data/
+*.sqlite3
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
