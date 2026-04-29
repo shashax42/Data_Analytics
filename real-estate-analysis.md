@@ -1,14 +1,66 @@
 ---
 marp: true
-theme: gaia
-_class: lead
+theme: default
 paginate: true
-backgroundColor: #0f172a
-color: #f8fafc
+backgroundColor: #FFFFFF
+color: #111111
+style: |
+  section {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    padding: 40px;
+    justify-content: flex-start;
+  }
+  section::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 8px;
+    background-color: #E8000D;
+  }
+  h1 {
+    color: #111111;
+    font-size: 44pt;
+    margin-bottom: 0;
+    border-bottom: 2px solid #DDDDDD;
+    padding-bottom: 20px;
+  }
+  h2 {
+    color: #444444;
+    font-size: 28pt;
+    margin-top: 10px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+  }
+  th {
+    background-color: #FAFAFA;
+    border-bottom: 2px solid #111111;
+    text-align: left;
+    padding: 10px;
+  }
+  td {
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px;
+  }
+  blockquote {
+    background: #FAFAFA;
+    border-left: 5px solid #E8000D;
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px 20px;
+  }
+  footer {
+    color: #888888;
+    font-size: 10pt;
+  }
 ---
 
-# 🏢 실제 데이터 기반 부동산 분석
-## Nemo App 실시간 수집 결과 리포트
+# 🏢 부동산 시장 분석 리포트
+## Nemo Professional Data Analytics
 
 ---
 
@@ -30,8 +82,6 @@ color: #f8fafc
 - **기타업종**: 14건 (70%)
 - **서비스업**: 4건 (20%)
 - **판매업/음식점**: 각 1건 (10%)
-
-> 강남역 인근 지역 특성상 사무용 공간(오피스) 매물이 주를 이룹니다.
 
 ---
 
@@ -58,3 +108,5 @@ color: #f8fafc
 # 감사합니다
 ### 실시간 데이터 수집 및 분석 완료
 **수집일시**: 2026년 4월 29일
+
+<footer>Nemo Data Analytics · Swiss International Style Applied</footer>
