@@ -8,7 +8,8 @@ style: |
   section {
     font-family: 'Arial Black', sans-serif;
     padding: 50px;
-    background-color: #F5F500;
+    background-color: #F5F500 !important;
+    color: #000000 !important;
   }
   h1 {
     font-size: 50pt;
@@ -19,6 +20,7 @@ style: |
     display: inline-block;
     box-shadow: 10pt 10pt 0px #000000;
     margin-bottom: 40px;
+    color: #000000;
   }
   h2 {
     font-size: 30pt;
@@ -34,6 +36,7 @@ style: |
     font-family: 'Courier New', monospace;
     font-size: 24pt;
     margin-top: 10px;
+    color: #000000;
   }
   table {
     width: 100%;
@@ -43,6 +46,7 @@ style: |
     background: #FFFFFF;
     box-shadow: 12pt 12pt 0px #000000;
     margin-top: 30px;
+    color: #000000;
   }
   th {
     background: #000000;
@@ -57,6 +61,7 @@ style: |
     font-family: 'Courier New', monospace;
     font-weight: bold;
     font-size: 14pt;
+    color: #000000;
   }
   ul {
     font-family: 'Courier New', monospace;
@@ -67,6 +72,15 @@ style: |
     border: 3pt solid #000000;
     padding: 30px 50px;
     box-shadow: 10pt 10pt 0px #000000;
+    color: #000000;
+  }
+  blockquote {
+    background: #FFFFFF;
+    border: 3pt solid #000000;
+    padding: 10px 20px;
+    box-shadow: 6pt 6pt 0px #000000;
+    margin: 20px 0;
+    color: #000000;
   }
   footer {
     font-family: 'Courier New', monospace;
